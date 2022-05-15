@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b75029c2-69aa-40b4-806b-b410ff70559f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/WindowsFormsApp1/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WindowsFormsApp1/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WindowsFormsApp1/Form1.Designer.cs" />
+        <option value="$PROJECT_DIR$/WindowsFormsApp1/Form1.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VRgF6HZ9V4937wp1PpmMsymBO1" />
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.CSharpInteractiveConfiguration" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/WindowsFormsApp1/bin/Debug/WindowsFormsApp1.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WindowsFormsApp1/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/WindowsFormsApp1/WindowsFormsApp1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.8" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b75029c2-69aa-40b4-806b-b410ff70559f" name="Default Changelist" comment="" />
+      <created>1577221218928</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577221218928</updated>
+      <workItem from="1577221225032" duration="1010000" />
+      <workItem from="1577290872584" duration="1677000" />
+      <workItem from="1577292936509" duration="1554000" />
+      <workItem from="1577294661876" duration="1789000" />
+      <workItem from="1577296474668" duration="1791000" />
+      <workItem from="1577298378951" duration="1713000" />
+      <workItem from="1577300111837" duration="1790000" />
+      <workItem from="1577302167334" duration="1716000" />
+      <workItem from="1577303931277" duration="1769000" />
+      <workItem from="1577305857478" duration="1690000" />
+      <workItem from="1577307571223" duration="1792000" />
+      <workItem from="1577309414127" duration="1792000" />
+      <workItem from="1577311393941" duration="1598000" />
+      <workItem from="1577313277186" duration="1715000" />
+      <workItem from="1577315016204" duration="1796000" />
+      <workItem from="1577316954444" duration="1789000" />
+      <workItem from="1577318795562" duration="1768000" />
+      <workItem from="1577321041425" duration="1786000" />
+      <workItem from="1577322852060" duration="156000" />
+      <workItem from="1577386089810" duration="620000" />
+      <workItem from="1577388803072" duration="1330000" />
+      <workItem from="1577390377740" duration="1769000" />
+      <workItem from="1577392264795" duration="1768000" />
+      <workItem from="1577394126517" duration="1621000" />
+      <workItem from="1577396053816" duration="1767000" />
+      <workItem from="1577397923835" duration="1765000" />
+      <workItem from="1577399727331" duration="1788000" />
+      <workItem from="1577401540266" duration="1784000" />
+      <workItem from="1577403343735" duration="1790000" />
+      <workItem from="1577405157385" duration="1788000" />
+      <workItem from="1577407012766" duration="1789000" />
+      <workItem from="1577408889202" duration="1764000" />
+      <workItem from="1577410680931" duration="1788000" />
+      <workItem from="1577412497874" duration="1790000" />
+      <workItem from="1577414309204" duration="711000" />
+      <workItem from="1577444688146" duration="420000" />
+      <workItem from="1577445580588" duration="93000" />
+      <workItem from="1577475069785" duration="1388000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
