@@ -127,7 +127,7 @@ class RelatedTree:
             self.__delVoidLevel() #если только это поддерево занимало уровень удаляем образоващийся пустой уровень          
 
 
-    def get(self, key): #получение значения узла по ключу
+    def find(self, key): #получение значения узла по ключу
         j = 0
         i, j = self.__indexOf(key)
         if i is None:
@@ -367,16 +367,16 @@ class RelatedTree:
             j_root_right = j_root_left
 
         max_length_node = len(str(self.maximum(key_root))) #длина максимального эллемента
-        count_node_last_level = 2**(self.depth() - 1) // 2**i_root #количество узлов последнего уровня поддерева, так как с каждым нижне уровнем сын является корнем поддерева с узлами в 2 раза меньше на последнем уровне
+        count_node_last_level = 2**(self.depth(key_root) - 1) #количество узлов последнего уровня поддерева, так как с каждым нижне уровнем сын является корнем поддерева с узлами в 2 раза меньше на последнем уровне
         count_node = 0 #количество узлов на текущем уровне плюс все предыдующие уровни
         length_last_level = (2 * count_node_last_level - 1) * max_length_node #длина вывода последнего уровня, состоит из длины всех узлов (количество элементво на длину максмимального узла) + расстояния между узлами равное длине максимального узла
         space_before_node_current_level = 0 #расстоянние между эллемента текущего уровня равно длине последнего уровня - длине всех узлов текущего уровня и эту разница делить на удвоенное количество узлов текущего уровня (так как для каждого узла нужны пробелы слевы и справа)
 
         #печатаем структуру дерева
-        for i in range(i_root , len(self.__tree)):
+        for i in range(i_root, i_root + self.depth(key_root)):
             count_node += j_root_right - j_root_left + 1   
             space_before_node_current_level = (length_last_level - max_length_node * count_node) // (2 * (j_root_right - j_root_left + 1))
-            if i == len(self.__tree) - 1:
+            if i == i_root + self.depth(key_root) - 1:
                 space_before_node_current_level = 0 #убираем расстояние для последнего уровня, так как у него нет сыновей
                 
             for j in range(j_root_left, j_root_right + 1):
@@ -389,10 +389,10 @@ class RelatedTree:
             print()
             for j in range(j_root_left, j_root_right + 1):
                 flag_last_max = 0 #для корректного вывода если у узла на предпоследнем уровне, длина значения которого равна длине максимального числа, есть левый сын и/или правый сын то в конце и в начале нужно на одни пробел меньше выводить перед веткой
-                if i != len(self.__tree) - 1: #рисуем ветки для всех кроме последнего уровня
+                if i != i_root + self.depth(key_root) - 1: #рисуем ветки для всех кроме последнего уровня
                     if len(self.__tree[i][j]) != 0: #если есть узел рисуем для его сыновей ветки
 
-                        if i == len(self.__tree) - 2 and len(str(self.__tree[i][j][1])) != 1:
+                        if i == i_root + self.depth(key_root) - 2 and len(str(self.__tree[i][j][1])) != 1:
                                 flag_last_max = -1
                         
                         if len(self.__tree[i + 1][j * 2]) != 0: #если есть левый сын рисуем для него ветки
@@ -440,7 +440,7 @@ print("Глубина дерева с корнем 40: " + str(tree.depth(40)))
 print("Количество узлов в дереве с корнем 40 " + str(tree.nodeCount(40)))
 print("Глубина дерева с корнем 60: " + str(tree.depth(60)))
 print("Количество узлов в дереве с корнем 60 " + str(tree.nodeCount(60)))
-print("Значение узла с ключом 10: " + str(tree.get(10)))
+print("Значение узла с ключом 10: " + str(tree.find(10)))
 print("Нахождение значения узла с ключом 3: " + str(tree.find(3)))
 print("Максимум всего дерева: " + str(tree.maximum()))
 print("Максимум поддерва с корнем ключа 9: " + str(tree.maximum(9)))
@@ -456,7 +456,7 @@ tree.printTree()
 print("Глубина дерева после удаления: " + str(tree.depth()))
 print("Количество узло в дереве " + str(tree.nodeCount()))
 
-print("Значение узла с ключом 10: " + str(tree.get(10)))
+print("Значение узла с ключом 10: " + str(tree.find(10)))
 print("Нахождение значения узла с ключом 3: " + str(tree.find(3)))
 print("Максимум всего дерева: " + str(tree.maximum()))
 print("Максимум поддерва с корнем ключа 9: " + str(tree.maximum(9)))
@@ -482,7 +482,7 @@ print("Глубина дерева после изменений: " + str(tree.d
 print("Количество узло в поддереве с корнем 60: " + str(tree.nodeCount(60)))
 print("Минимум поддерева с корнем 60: " + str(tree.minimum(60)))
 
-print("Значение узла с ключом 10: " + str(tree.get(10)))
+print("Значение узла с ключом 10: " + str(tree.find(10)))
 print("Максимум поддерева с корнем 50: " + str(tree.maximum(50)))
 print("Минимум поддерева с корнем 50: " + str(tree.minimum(50)))
 print("Обратный обход дерева с корнем 6: " + str(tree.postOrderTraversal(6)))
