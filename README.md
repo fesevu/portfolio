@@ -1,2 +1,2 @@
 # portfolio
-Here you can see my projects
+Here are stored my own works and educational projects.
